@@ -1,0 +1,13 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+:root{
+    --nome-variavel: 'valor';
+    --corBox: rgba(37,37,37,0.8);
+    --corBarraNavegacao: rgb(30,31,34);
+    --subTitutuloEbotoes: rgb(225,174,0);
+    --texto: white;
+}
