@@ -2,6 +2,7 @@
 padding: 0%;
 margin: 0%;
 box-sizing: border-box;
+font-family: sans-serif;
 }
 
 :root{
@@ -10,4 +11,32 @@ box-sizing: border-box;
     --corBarraNavegacao: rgb(30,31,34);
     --subTitutuloEbotoes: rgb(225,174,0);
     --texto: white;
+}
+
+header{
+    background-color: var(--corBarraNavegacao);
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0px 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--texto);
+    font-weight: bolder;
+    font-family: sans-serif;
+
 }
