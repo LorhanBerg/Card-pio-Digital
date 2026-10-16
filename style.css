@@ -13,6 +13,12 @@ font-family: sans-serif;
     --texto: white;
 }
 
+body{
+    background-image: url(imagens/bg.png);
+    text-align: center;
+    color: var(--texto);
+}
+
 header{
     background-color: var(--corBarraNavegacao);
     text-align: center;
@@ -29,7 +35,7 @@ nav ul{
 
 nav ul li{
     list-style: none;
-    margin: 0px 10px;
+    margin: 0px 20px;
 
 }
 
